@@ -9,7 +9,7 @@ export const CookieClicker = () => {
       <h2>Cookie Clicker</h2>
       <p>Score: {score}</p>
       <button onClick={() => setScore(score + 1)}>
-        <img src="../public/cookie.png" alt="Cartoon Cookie" />
+        <img src="./public/cookie.png" alt="Cartoon Cookie" />
       </button>
     </section>
   );
