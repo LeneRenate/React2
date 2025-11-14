@@ -1,6 +1,6 @@
 /*
   return (
-    <div className="users">
+    <section className="users">
       <h2>Users</h2>
       <ul>
         {users.map((user, index) => (
@@ -25,6 +25,31 @@
         />
         <button type="submit">Add user</button>
       </form>
-    </div>
+    </section>
   );
 */
+
+ul {
+  max-width: 550px;
+  text-align: left;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 80%;
+  border: 1px solid navy;
+  max-width: 400px;
+}
+
+#userBtn {
+  width: 175px;
+  background-color: navy;
+  color: white;
+}

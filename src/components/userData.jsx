@@ -23,7 +23,7 @@ export const Users = () => {
   };
 
   return (
-    <div className="users">
+    <section className="users">
       <h2>Users</h2>
       <ul>
         {users.map((user, index) => (
@@ -46,8 +46,10 @@ export const Users = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button type="submit">Add user</button>
+        <button id="userBtn" type="submit">
+          Add user
+        </button>
       </form>
-    </div>
+    </section>
   );
 };
